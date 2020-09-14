@@ -1,0 +1,35 @@
+{
+  "name": "rammy-command-db",
+  "version": "1.0.0",
+  "description": "Simple tool that interacts with Nightbot to power and track statistics with certain commands.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -P tsconfig.json",
+    "clean": "rimraf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAppleFreak/rammy-command-db.git"
+  },
+  "author": "TheAppleFreak@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheAppleFreak/rammy-command-db/issues"
+  },
+  "homepage": "https://github.com/TheAppleFreak/rammy-command-db#readme",
+  "dependencies": {
+    "@apple-core/library-global-sequelize": "git+https://gitlab.com/apple-core/libraries/global-sequelize.git",
+    "axios": "^0.20.0",
+    "moleculer": "^0.14.10",
+    "moleculer-web": "^0.9.1",
+    "platformsh-config": "^2.3.1",
+    "sequelize": "^6.3.5",
+    "tslib": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "jest": "^26.4.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.2"
+  }
+}
