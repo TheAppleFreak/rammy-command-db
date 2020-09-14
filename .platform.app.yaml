@@ -31,4 +31,4 @@ disk: 256
 
 web:
   commands: 
-    start: "node index.js"
+    start: "node build/index.js"
